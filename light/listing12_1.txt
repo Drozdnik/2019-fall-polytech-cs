@@ -1,0 +1,24 @@
+def setup ():
+    size (500, 500)
+    smooth ()
+    noLoop ()
+    background(50)
+    
+def draw ():
+    background(50)
+    
+    fill (94, 206, 40, 50)
+    strokeWeight(0)
+    ellipse (100, 100, 150, 150)
+    
+    fill(94, 206, 40, 100)
+    strokeWeight(0)
+    ellipse(100, 200, 150, 150)
+    
+    fill(94, 206, 40, 150)
+    strokeWeight(0)
+    ellipse(100, 300, 150, 150)
+    
+    fill(94, 206, 40, 200)
+    strokeWeight(0)
+    ellipse(100, 400, 150, 150)
